@@ -1,10 +1,10 @@
 import React from 'react';
 
 
-function App() {
+const App = () => {
   return (
     <div className="App">
-
+      <h1>welcome to ALMV</h1>
     </div>
   );
 }
