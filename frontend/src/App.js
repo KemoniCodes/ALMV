@@ -7,8 +7,8 @@ const App = () => {
   return (
     <>
       <Header />
-      <main>
-        <h1>welcome to ALMV</h1>
+      <main >
+        <h1 className='header-text'>ALMV</h1>
       </main>
       <Footer />
     </>

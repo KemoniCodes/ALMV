@@ -1,0 +1,75 @@
+$header-text: #FFFFFF;
+$text: #545775;
+$bg-main:#DBCFB0;
+$bg-panel:#EBE0D6;
+$bg-footer:#BFC8AD;
+
+* {
+    box-sizing: border-box;
+}
+html {
+    background-color: $bg-main;
+}
+
+//Font/text templates
+.header-text {
+color: $header-text;
+font-family: 'Montserrat', sans-serif;
+font-weight: 700;
+letter-spacing: 1.3rem;
+    &#panel {
+        color: $text;
+    }
+}
+
+.sub-header-text {
+font-family: 'Montserrat', sans-serif;
+font-weight: 500;
+letter-spacing: 1.3rem;
+
+    &#panel {
+        color: $text;
+    }
+}
+
+p {
+    font-family: 'Esteban', serif;
+    color: $text;
+    letter-spacing: .2rem;
+}
+
+
+
+h1.header-text {
+    text-align: center;
+    font-size: 11.2rem;
+}
+
+nav {
+    text-align: center;
+    ul {
+        display: inline-flex;
+        list-style: none;
+        width: 85%;
+        justify-content: space-between;
+        padding: 0;
+        
+        li {
+            font-family: 'Esteban', serif;
+            color: $text;
+            letter-spacing: .2rem;
+
+            &.header-text {
+                font-size: 3rem;
+            }
+
+            img {
+                height: 15px;
+                width: auto;
+            }
+        }
+    }
+}
+
+
+
