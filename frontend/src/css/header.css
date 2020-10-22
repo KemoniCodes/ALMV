@@ -1,11 +1,13 @@
 * {
   box-sizing: border-box; }
 
-html {
-  background-color: #DBCFB0; }
+body {
+  background-image: url("../images/hero-image.png");
+  background-position: center;
+  background-size: cover; }
 
 .header-text {
-  color: #FFFFFF;
+  color: #F3F3F4;
   font-family: 'Montserrat', sans-serif;
   font-weight: 700;
   letter-spacing: 1.3rem; }

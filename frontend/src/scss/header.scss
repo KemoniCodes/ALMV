@@ -1,4 +1,5 @@
 $header-text: #FFFFFF;
+$off-white:#F3F3F4;
 $text: #545775;
 $bg-main:#DBCFB0;
 $bg-panel:#EBE0D6;
@@ -7,13 +8,19 @@ $bg-footer:#BFC8AD;
 * {
     box-sizing: border-box;
 }
-html {
-    background-color: $bg-main;
+
+body {
+    background-image: url('../images/hero-image.png');
+    background-position: center;
+    background-size: cover;
+    // background-position-x: 70%;
+    // background-position-y: center;
+
 }
 
 //Font/text templates
 .header-text {
-color: $header-text;
+color: $off-white;
 font-family: 'Montserrat', sans-serif;
 font-weight: 700;
 letter-spacing: 1.3rem;
