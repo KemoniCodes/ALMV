@@ -2,9 +2,11 @@
   box-sizing: border-box; }
 
 body {
+  margin: 0;
   background-image: url("../images/hero-image.png");
   background-position: center;
-  background-size: cover; }
+  background-size: cover;
+  background-position-y: 70%; }
 
 .header-text {
   color: #F3F3F4;
@@ -47,3 +49,6 @@ header nav {
 h1.header-text {
   text-align: center;
   font-size: 11.2rem; }
+
+div.landing {
+  min-height: 80vh; }

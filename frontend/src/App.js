@@ -1,15 +1,16 @@
 import React from 'react';
 import Header from '../src/components/Header';
 import Footer from '../src/components/Footer';
+import Landing from './layouts/Landing';
+import './scss/app.scss';
+
 
 
 const App = () => {
   return (
     <>
       <Header />
-      <main >
-        <h1 className='header-text'>ALMV</h1>
-      </main>
+      <Landing />
       <Footer />
     </>
   );

@@ -1,5 +1,4 @@
 import React from 'react';
-import '../scss/header.scss';
 import navbars from '../images/navbars.png'
 
 const Header = () => {
