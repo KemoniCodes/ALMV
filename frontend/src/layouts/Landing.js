@@ -1,5 +1,5 @@
 import React, { Fragment } from 'react';
-import Product from '../components/Product';
+import Panel from '../components/Panel';
 import Arrow from '../images/arrow-down.png'
 // import Header from '../components/Header';
 // import Footer from '../components/Footer';
@@ -13,8 +13,7 @@ const Landing = () => {
                 <div className="image">
                     <img src={Arrow} alt="Down Arrow" />
                 </div>
-                <Product />
-             
+                <Panel />
             </div>
         </Fragment>
     )

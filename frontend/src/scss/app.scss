@@ -12,12 +12,10 @@ $bg-footer:#BFC8AD;
 body {
  margin: 0;
  background-image: url('../images/hero-image.png');
-//  background-position: center;
  background-size: 1620px 2488px;
- background-repeat: no-repeat;
+ background-repeat-x: no-repeat;
  background-position-x: 80%;
  background-position-y: -2050%;
-//  background-position-x: 74%;
 }
 
 //Font/text templates
@@ -111,11 +109,11 @@ div.panel {
         padding: 0%;
         display: inline-flex;
         justify-content: space-evenly;
-        li {
-            width: 10rem;
-            padding-top: 2rem;
+        img {
+            height: 33rem;
             padding-bottom: 2rem;
-
+            width: 100%;
+            overflow: hidden;
         }
     }
 

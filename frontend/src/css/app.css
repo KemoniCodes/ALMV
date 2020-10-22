@@ -5,7 +5,7 @@ body {
   margin: 0;
   background-image: url("../images/hero-image.png");
   background-size: 1620px 2488px;
-  background-repeat: no-repeat;
+  background-repeat-x: no-repeat;
   background-position-x: 80%;
   background-position-y: -2050%; }
 
@@ -75,10 +75,11 @@ div.panel {
     padding: 0%;
     display: inline-flex;
     justify-content: space-evenly; }
-    div.panel ul.panel-images li {
-      width: 10rem;
-      padding-top: 2rem;
-      padding-bottom: 2rem; }
+    div.panel ul.panel-images img {
+      height: 33rem;
+      padding-bottom: 2rem;
+      width: 100%;
+      overflow: hidden; }
   div.panel h2.header-text {
     text-transform: uppercase;
     letter-spacing: .35rem;
