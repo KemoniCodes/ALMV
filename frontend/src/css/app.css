@@ -48,7 +48,8 @@ header nav {
 
 h1.header-text {
   text-align: center;
-  font-size: 11.2rem; }
+  font-size: 11.2rem;
+  color: #ffffff; }
 
 div.landing {
   min-height: 80vh; }
@@ -59,3 +60,54 @@ div.landing {
       height: .8rem;
       position: absolute;
       bottom: 3%; }
+
+div.panel {
+  background-color: #DBCFB0;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  letter-spacing: .2rem;
+  color: #545775; }
+  div.panel ul.panel-images {
+    list-style: none;
+    width: 100%;
+    margin: auto;
+    padding: 0%;
+    display: inline-flex;
+    justify-content: space-evenly; }
+    div.panel ul.panel-images li {
+      width: 10rem;
+      padding-top: 2rem;
+      padding-bottom: 2rem; }
+  div.panel h2.header-text {
+    text-transform: uppercase;
+    letter-spacing: .35rem;
+    font-size: 3.5rem; }
+  div.panel div.collection {
+    display: flex;
+    margin-left: 6.75rem; }
+    div.panel div.collection div.row {
+      width: 50%;
+      padding-top: 2rem; }
+      div.panel div.collection div.row h3 {
+        font-size: 37px;
+        margin-bottom: .7rem; }
+      div.panel div.collection div.row h4 {
+        font-weight: 500;
+        font-size: 18.5px; }
+        div.panel div.collection div.row h4 img {
+          height: .7rem;
+          padding-right: .2rem; }
+      div.panel div.collection div.row p {
+        letter-spacing: .13rem;
+        line-height: 1.6rem; }
+    div.panel div.collection div.image {
+      width: 50%; }
+      div.panel div.collection div.image ul {
+        margin: 0;
+        width: auto;
+        display: flex;
+        overflow: hidden;
+        padding-left: 2rem; }
+        div.panel div.collection div.image ul img {
+          height: 30rem;
+          position: relative; }
