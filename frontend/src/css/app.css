@@ -4,9 +4,10 @@
 body {
   margin: 0;
   background-image: url("../images/hero-image.png");
-  background-position: center;
-  background-size: cover;
-  background-position-y: 70%; }
+  background-size: 1620px 2488px;
+  background-repeat: no-repeat;
+  background-position-x: 80%;
+  background-position-y: -2050%; }
 
 .header-text {
   color: #F3F3F4;
@@ -59,7 +60,7 @@ div.landing {
     div.landing div.image img {
       height: .8rem;
       position: absolute;
-      bottom: 3%; }
+      bottom: 6%; }
 
 div.panel {
   background-color: #DBCFB0;
