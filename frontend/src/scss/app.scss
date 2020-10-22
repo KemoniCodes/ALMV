@@ -80,6 +80,13 @@ h1.header-text {
 
 div.landing {
     min-height: 80vh;
+
+    div.image {
+        text-align: center;
+        img {
+            height: .8rem;
+        }
+    }
 }
 
 
