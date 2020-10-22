@@ -83,8 +83,11 @@ div.landing {
 
     div.image {
         text-align: center;
+        min-height: 30vh;
         img {
             height: .8rem;
+            position: absolute;
+            bottom: 3%;
         }
     }
 }

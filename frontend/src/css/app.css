@@ -53,6 +53,9 @@ h1.header-text {
 div.landing {
   min-height: 80vh; }
   div.landing div.image {
-    text-align: center; }
+    text-align: center;
+    min-height: 30vh; }
     div.landing div.image img {
-      height: .8rem; }
+      height: .8rem;
+      position: absolute;
+      bottom: 3%; }
