@@ -84,10 +84,12 @@ div.panel {
     font-size: 3.5rem; }
   div.panel div.collection {
     display: flex;
-    margin-left: 6.75rem; }
+    margin-left: 108px;
+    padding-bottom: 4.5rem; }
     div.panel div.collection div.row {
       width: 50%;
-      padding-top: 2rem; }
+      padding-top: 2rem;
+      padding-right: 3rem; }
       div.panel div.collection div.row h3 {
         font-size: 37px;
         margin-bottom: .7rem; }
@@ -111,3 +113,35 @@ div.panel {
         div.panel div.collection div.image ul img {
           height: 30rem;
           position: relative; }
+  div.panel div.panel-2 {
+    background-color: #EBE0D6;
+    display: flex;
+    padding-top: 6rem;
+    padding-bottom: 3rem; }
+    div.panel div.panel-2 div.row {
+      margin-right: 108px;
+      padding-top: 5rem; }
+      div.panel div.panel-2 div.row h2.header-text#panel {
+        font-size: 2rem;
+        letter-spacing: .3rem;
+        text-align: right;
+        margin-left: 11rem; }
+      div.panel div.panel-2 div.row h3.sub-header-text#panel {
+        text-align: right;
+        font-size: 1.4rem;
+        margin-left: 6rem; }
+    div.panel div.panel-2 div.image {
+      width: 80%;
+      padding-left: 108px;
+      padding-bottom: 4rem;
+      overflow: hidden; }
+      div.panel div.panel-2 div.image ul {
+        margin: 0;
+        width: auto;
+        display: flex;
+        padding-left: 0;
+        justify-content: space-around; }
+        div.panel div.panel-2 div.image ul img {
+          height: 30rem;
+          position: relative;
+          border-radius: 2.5rem; }

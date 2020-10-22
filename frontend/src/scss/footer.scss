@@ -15,6 +15,7 @@ footer {
         display: inline-flex;
         width: 80%;
         padding: 0;
+        margin-top: 1rem;
 
         ul.sub-list {
             display: inline-block; 
@@ -41,7 +42,7 @@ footer {
 
     li.sub-header-text {
         list-style: none;
-        padding-bottom: .5rem;
+        padding-bottom: 1.5rem;
         color: $off-white;
         font-weight: 400;
         padding-top: .2rem;

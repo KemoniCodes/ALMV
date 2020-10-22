@@ -6,7 +6,8 @@ footer {
     list-style: none;
     display: inline-flex;
     width: 80%;
-    padding: 0; }
+    padding: 0;
+    margin-top: 1rem; }
     footer ul ul.sub-list {
       display: inline-block; }
       footer ul ul.sub-list li {
@@ -25,7 +26,7 @@ footer {
         text-decoration: underline; }
   footer li.sub-header-text {
     list-style: none;
-    padding-bottom: .5rem;
+    padding-bottom: 1.5rem;
     color: #F3F3F4;
     font-weight: 400;
     padding-top: .2rem;

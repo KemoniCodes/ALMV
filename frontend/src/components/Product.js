@@ -1,6 +1,8 @@
 import React, { Fragment } from 'react';
-import image from '../images/jacket 4/3.jpg'
-import image2 from '../images/jeans 4/3.jpg'
+import image from '../images/jacket 4/3.jpg';
+import image2 from '../images/jeans 4/3.jpg';
+import image3 from '../images/shoe 2/3.jpg';
+import image4 from '../images/bag 1/2.jpg';
 import { Row, Col } from 'react-bootstrap';
 import products from '../products';
 import arrow from '../images/diagnol-arrow.png'
@@ -32,11 +34,28 @@ const Product = () => {
                     <div className="image">
                         {products.map(product => (
                             <ul>
-                                {/* <img src={product.jacket[3].images[2].image3} alt="product" /> */}
                                 <img src={image} alt="product" />
                                 <img src={image2} alt="product" />
                             </ul>
                         ))}
+                    </div>
+                </div>
+
+                <div className="panel-2">
+                    <div className="image">
+                        <ul>
+                            <img src={image3} alt="" />
+                            <img src={image4} alt="" />
+                        </ul>
+
+                    </div>
+                    <div className="row">
+                        <h2 className='header-text' id='panel'>
+                            Shop Our Accessories
+                        </h2>
+                        <h3 className='sub-header-text' id='panel'>
+                            SAVE 50% OFF BUY 1, GET ONE FREE!
+                        </h3>
                     </div>
                 </div>
             </div>
