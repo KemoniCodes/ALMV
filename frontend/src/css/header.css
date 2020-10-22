@@ -15,7 +15,7 @@ html {
 .sub-header-text {
   font-family: 'Montserrat', sans-serif;
   font-weight: 500;
-  letter-spacing: 1.3rem; }
+  letter-spacing: .2rem; }
   .sub-header-text#panel {
     color: #545775; }
 
@@ -24,24 +24,24 @@ p {
   color: #545775;
   letter-spacing: .2rem; }
 
-h1.header-text {
-  text-align: center;
-  font-size: 11.2rem; }
-
-nav {
+header nav {
   text-align: center; }
-  nav ul {
+  header nav ul {
     display: inline-flex;
     list-style: none;
     width: 85%;
     justify-content: space-between;
     padding: 0; }
-    nav ul li {
+    header nav ul li {
       font-family: 'Esteban', serif;
       color: #545775;
       letter-spacing: .2rem; }
-      nav ul li.header-text {
+      header nav ul li.header-text {
         font-size: 3rem; }
-      nav ul li img {
+      header nav ul li img {
         height: 15px;
         width: auto; }
+
+h1.header-text {
+  text-align: center;
+  font-size: 11.2rem; }
