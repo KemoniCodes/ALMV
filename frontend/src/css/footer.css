@@ -1,7 +1,9 @@
 footer {
   background-color: #BFC8AD;
   height: auto;
-  text-align: center; }
+  text-align: center;
+  width: 100%;
+  bottom: 0; }
   footer ul {
     list-style: none;
     display: inline-flex;

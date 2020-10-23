@@ -155,3 +155,6 @@ div.panel {
           height: 30rem;
           position: relative;
           border-radius: 2.5rem; }
+
+div.product {
+  min-height: 80vh; }
