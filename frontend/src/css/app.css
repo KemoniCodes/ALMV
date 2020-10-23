@@ -64,11 +64,11 @@ div.landing {
   min-height: 80vh; }
   div.landing div.image {
     text-align: center;
-    min-height: 30vh; }
+    min-height: 45vh; }
     div.landing div.image img {
       height: .8rem;
       position: absolute;
-      bottom: 6%; }
+      bottom: 4%; }
 
 div.panel {
   background-color: #DBCFB0;
