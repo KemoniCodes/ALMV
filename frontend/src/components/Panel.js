@@ -1,4 +1,5 @@
 import React, { Fragment } from 'react';
+import { Link } from 'react-router-dom';
 import products from '../products';
 import arrow from '../images/diagnol-arrow.png';
 // import Product from './Product';
@@ -10,18 +11,18 @@ const Panel = () => {
 
                 {products.map(product => (
                     <ul className='panel-images'>
-                        <a href={`/product/${product.jacket[0].category.name}/${product.jacket[0].id}`}>
+                        <Link to={`/product/${product.jacket[0].category.name}/${product.jacket[0].id}`}>
                             <img src={product.jacket[0].images[0].image1} alt='product'/>
-                        </a>
-                        <a href={`/product/${product.dress[0].category.name}/${product.dress[0].id}`}>
+                        </Link>
+                        <Link to={`/product/${product.dress[0].category.name}/${product.dress[0].id}`}>
                             <img src={product.dress[0].images[0].image1} alt='product'/>
-                        </a>
-                        <a href={`/product/${product.jeans[1].category.name}/${product.jeans[1].id}`}>
+                        </Link>
+                        <Link to={`/product/${product.jeans[1].category.name}/${product.jeans[1].id}`}>
                             <img src={product.jeans[1].images[0].image1} alt='product'/>
-                        </a>
-                        <a href={`/product/${product.skirt[1].category.name}/${product.skirt[1].id}`}>
+                        </Link>
+                        <Link to={`/product/${product.skirt[1].category.name}/${product.skirt[1].id}`}>
                             <img src={product.skirt[1].images[0].image1} alt='product'/>
-                        </a>
+                        </Link>
                     </ul>
                 ))}
 
@@ -39,12 +40,12 @@ const Panel = () => {
                     <div className="image">
                         {products.map(product => (
                             <ul>
-                                <a href={`/product/${product.jacket[3].category.name}/${product.jacket[3].id}`}>
+                                <Link to={`/product/${product.jacket[3].category.name}/${product.jacket[3].id}`}>
                                     <img src={product.jacket[3].images[2].image3} alt="product" />
-                                </a>
-                                <a href={`/product/${product.jeans[3].category.name}/${product.jeans[3].id}`}>
+                                </Link>
+                                <Link to={`/product/${product.jeans[3].category.name}/${product.jeans[3].id}`}>
                                     <img src={product.jeans[3].images[2].image3} alt="product" />
-                                </a>
+                                </Link>
                             </ul>
                         ))}
                     </div>
@@ -54,13 +55,13 @@ const Panel = () => {
                     <div className="image">
                         {products.map(product => (
                             <ul>
-                                <a href={`/product/${product.shoes[1].category.name}/${product.shoes[1].id}`}>
+                                <Link to={`/product/${product.shoes[1].category.name}/${product.shoes[1].id}`}>
                                     <img src={product.shoes[1].images[2].image3} alt='product' />
-                                </a>
+                                </Link>
 
-                                <a href={`/product/${product.bags[0].category.name}/${product.bags[0].id}`}>
+                                <Link to={`/product/${product.bags[0].category.name}/${product.bags[0].id}`}>
                                     <img src={product.bags[0].images[1].image2} alt='product' />
-                                </a>
+                                </Link>
                             </ul>
                         ))}
 

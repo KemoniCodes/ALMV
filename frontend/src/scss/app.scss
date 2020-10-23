@@ -64,6 +64,10 @@ header {
             justify-content: space-between;
             padding: 0;
             
+            a {
+                text-decoration: none;
+                outline: none;
+            }
             li {
                 font-family: 'Esteban', serif;
                 color: $text;
@@ -117,6 +121,11 @@ div.panel {
         padding: 0%;
         display: inline-flex;
         justify-content: space-evenly;
+        
+        a {
+            text-decoration: none;
+            outline: none;
+        }
         img {
             height: 33rem;
             padding-bottom: 2rem;

@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import navbars from '../images/navbars.png'
 
 const Header = () => {
@@ -7,13 +8,13 @@ const Header = () => {
             <nav>
                 <ul>
                     <li>shop</li>
-                    <li className='header-text'>V</li>
+                    <Link to='/'><li className='header-text'>V</li> </Link>
                     <li>
                         <img src={navbars} alt="navbars" />
                     </li>
                 </ul>
             </nav>
-        </header>
+        </header >
     )
 }
 
