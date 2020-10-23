@@ -1,6 +1,9 @@
 * {
   box-sizing: border-box; }
 
+html {
+  scroll-behavior: smooth; }
+
 body {
   margin: 0;
   background-image: url("../images/hero-image.png");
@@ -29,23 +32,28 @@ p {
   color: #545775;
   letter-spacing: .2rem; }
 
-header nav {
-  text-align: center; }
-  header nav ul {
-    display: inline-flex;
-    list-style: none;
-    width: 85%;
-    justify-content: space-between;
-    padding: 0; }
-    header nav ul li {
-      font-family: 'Esteban', serif;
-      color: #545775;
-      letter-spacing: .2rem; }
-      header nav ul li.header-text {
-        font-size: 3rem; }
-      header nav ul li img {
-        height: 15px;
-        width: auto; }
+header {
+  top: 2%;
+  position: fixed;
+  width: 100%;
+  z-index: 1; }
+  header nav {
+    text-align: center; }
+    header nav ul {
+      display: inline-flex;
+      list-style: none;
+      width: 85%;
+      justify-content: space-between;
+      padding: 0; }
+      header nav ul li {
+        font-family: 'Esteban', serif;
+        color: #545775;
+        letter-spacing: .2rem; }
+        header nav ul li.header-text {
+          font-size: 3rem; }
+        header nav ul li img {
+          height: 15px;
+          width: auto; }
 
 h1.header-text {
   text-align: center;
