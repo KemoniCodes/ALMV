@@ -5,9 +5,9 @@ body {
   margin: 0;
   background-image: url("../images/hero-image.png");
   background-size: 1620px 2488px;
-  background-repeat-x: no-repeat;
+  background-repeat: no-repeat;
   background-position-x: 80%;
-  background-position-y: -2050%; }
+  background-position-y: -200%; }
 
 .header-text {
   color: #F3F3F4;

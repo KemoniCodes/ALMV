@@ -1,12 +1,7 @@
 import React, { Fragment } from 'react';
-// import image from '../images/jacket 4/3.jpg';
-// import image2 from '../images/jeans 4/3.jpg';
-// import image3 from '../images/shoe 2/3.jpg';
-// import image4 from '../images/bag 1/2.jpg';
-import { Row, Col } from 'react-bootstrap';
 import products from '../products';
-import Product from '../components/Product'
-import arrow from '../images/diagnol-arrow.png'
+import arrow from '../images/diagnol-arrow.png';
+// import Product from './Product';
 
 const Panel = () => {
     return (
@@ -15,10 +10,18 @@ const Panel = () => {
 
                 {products.map(product => (
                     <ul className='panel-images'>
-                        <img src={product.jacket[0].images[0].image1} />
-                        <img src={product.dress[0].images[0].image1} />
-                        <img src={product.jeans[1].images[0].image1} />
-                        <img src={product.skirt[1].images[0].image1} />
+                        <a href={`/product/${product.jacket[0].category.name}/${product.jacket[0].id}`}>
+                            <img src={product.jacket[0].images[0].image1} alt='product'/>
+                        </a>
+                        <a href={`/product/${product.dress[0].category.name}/${product.dress[0].id}`}>
+                            <img src={product.dress[0].images[0].image1} alt='product'/>
+                        </a>
+                        <a href={`/product/${product.jeans[1].category.name}/${product.jeans[1].id}`}>
+                            <img src={product.jeans[1].images[0].image1} alt='product'/>
+                        </a>
+                        <a href={`/product/${product.skirt[1].category.name}/${product.skirt[1].id}`}>
+                            <img src={product.skirt[1].images[0].image1} alt='product'/>
+                        </a>
                     </ul>
                 ))}
 
@@ -36,8 +39,12 @@ const Panel = () => {
                     <div className="image">
                         {products.map(product => (
                             <ul>
-                                <img src={product.jacket[3].images[2].image3} alt="product" />
-                                <img src={product.jeans[3].images[2].image3} alt="product" />
+                                <a href={`/product/${product.jacket[3].category.name}/${product.jacket[3].id}`}>
+                                    <img src={product.jacket[3].images[2].image3} alt="product" />
+                                </a>
+                                <a href={`/product/${product.jeans[3].category.name}/${product.jeans[3].id}`}>
+                                    <img src={product.jeans[3].images[2].image3} alt="product" />
+                                </a>
                             </ul>
                         ))}
                     </div>
@@ -47,8 +54,13 @@ const Panel = () => {
                     <div className="image">
                         {products.map(product => (
                             <ul>
-                                <img src={product.shoes[1].images[2].image3} alt="" />
-                                <img src={product.bags[0].images[1].image2} alt="" />
+                                <a href={`/product/${product.shoes[1].category.name}/${product.shoes[1].id}`}>
+                                    <img src={product.shoes[1].images[2].image3} alt='product' />
+                                </a>
+
+                                <a href={`/product/${product.bags[0].category.name}/${product.bags[0].id}`}>
+                                    <img src={product.bags[0].images[1].image2} alt='product' />
+                                </a>
                             </ul>
                         ))}
 

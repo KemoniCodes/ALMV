@@ -1,165 +1,169 @@
 const products = [
-
     {
-        bags: [
+        bags:
+            [
+                {
+                    id: '1',
+                    name: 'Woven Beige Tote Bag',
+                    images: [
+                        {
+                            image1: '/images/bag 1/1.jpg'
+                        },
+                        {
+                            image2: '/images/bag 1/2.jpg'
+                        },
+                        {
+                            image3: '/images/bag 1/3.jpg'
+                        },
+                        {
+                            image4: '/images/bag 1/4.jpg'
+                        }
+                    ],
+                    description: 'Beige textile tote bag. Perfect to spruce up a layered winter outfit!',
+                    brand: 'ALMV',
+                    category: {
+                        name: 'bags',
+                        categories: [
+                            {
+                                accessories: [
+                                    {
+                                        bags: [
+                                            {
+                                                type: 'Tote'
+                                            }
+                                        ]
+                                    }
+                                ],
+                            }
+                        ]
+                    },
+                    price: 50.00,
+                    countInStock: 5,
+                    rating: 4.5,
+                    numReviews: 5
+                },
+                {
+                    id: '2',
+                    name: 'Black Leather Tote Bag',
+                    images: [
+                        {
+                            image1: '/images/bag 2/1.jpg'
+                        },
+                        {
+                            image2: '/images/bag 2/2.jpg'
+                        },
+                        {
+                            image3: '/images/bag 2/3.jpg'
+                        },
+                        {
+                            image4: '/images/bag 2/4.jpg'
+                        }
+                    ],
+                    description: 'Black leather tote bag. Perfect to spruce up a layered fall outfit!',
+                    brand: 'ALMV',
+                    category: {
+                        name: 'bags',
+                        categories: [
+                            {
+                                accessories: [
+                                    {
+                                        bags: [
+                                            {
+                                                type: 'Tote'
+                                            }
+                                        ]
+                                    }
+                                ],
+                            }
+                        ]
+                    },
+                    price: 50.00,
+                    countInStock: 3,
+                    rating: 4.5,
+                    numReviews: 7
+                },
+                {
+                    id: '3',
+                    name: 'Chestnut Leather Crossbody Bag',
+                    images: [
+                        {
+                            image1: '/images/bag 3/1.jpg'
+                        },
+                        {
+                            image2: '/images/bag 3/2.jpg'
+                        },
+                        {
+                            image3: '/images/bag 3/3.jpg'
+                        },
+                        {
+                            image4: '/images/bag 3/4.jpg'
+                        }
+                    ],
+                    description: 'Chestnut leather crossbody bag, accompinied with gold hardware. Perfect to dress up a neutral outfit, or dressed down!',
+                    brand: 'ALMV',
+                    category: {
+                        name: 'bags',
+                        categories: [
+                            {
+                                accessories: [
+                                    {
+                                        bags: [
+                                            {
+                                                type: 'Crossbody'
+                                            }
+                                        ]
+                                    }
+                                ],
+                            }
+                        ]
+                    },
+                    price: 45.00,
+                    countInStock: 6,
+                    rating: 4.3,
+                    numReviews: 4
+                },
+                {
+                    id: '4',
+                    name: 'Camel Suede Tote Bag',
+                    images: [
+                        {
+                            image1: '/images/bag 4/1.jpg'
+                        },
+                        {
+                            image2: '/images/bag 4/2.jpg'
+                        },
+                        {
+                            image3: '/images/bag 4/3.jpg'
+                        },
+                        {
+                            image4: '/images/bag 4/4.jpg'
+                        }
+                    ],
+                    description: 'Camel suede tote bag. Perfect to give your outfit bohemian chic this fall & winter!',
+                    brand: 'ALMV',
+                    category: {
+                        name: 'bags',
+                        categories: [
+                            {
+                                accessories: [
+                                    {
+                                        bags: [
+                                            {
+                                                type: 'Tote'
+                                            }
+                                        ]
+                                    }
+                                ],
+                            }
+                        ]
+                    },
+                    price: 45.00,
+                    countInStock: 5,
+                    rating: 4.4,
+                    numReviews: 3
+                },
+            ],
 
-            {
-                id: '1',
-                name: 'Woven Beige Tote Bag',
-                images: [
-                    {
-                        image1: '/images/bag 1/1.jpg'
-                    },
-                    {
-                        image2: '/images/bag 1/2.jpg'
-                    },
-                    {
-                        image3: '/images/bag 1/3.jpg'
-                    },
-                    {
-                        image4: '/images/bag 1/4.jpg'
-                    }
-                ],
-                description: 'Beige textile tote bag. Perfect to spruce up a layered winter outfit!',
-                brand: 'ALMV',
-                category: {
-                    categories: [
-                        {
-                            accessories: [
-                                {
-                                    bags: [
-                                        {
-                                            type: 'Tote'
-                                        }
-                                    ]
-                                }
-                            ],
-                        }
-                    ]
-                },
-                price: 50.00,
-                countInStock: 5,
-                rating: 4.5,
-                numReviews: 5
-            },
-            {
-                id: '2',
-                name: 'Black Leather Tote Bag',
-                images: [
-                    {
-                        image1: '/images/bag 2/1.jpg'
-                    },
-                    {
-                        image2: '/images/bag 2/2.jpg'
-                    },
-                    {
-                        image3: '/images/bag 2/3.jpg'
-                    },
-                    {
-                        image4: '/images/bag 2/4.jpg'
-                    }
-                ],
-                description: 'Black leather tote bag. Perfect to spruce up a layered fall outfit!',
-                brand: 'ALMV',
-                category: {
-                    categories: [
-                        {
-                            accessories: [
-                                {
-                                    bags: [
-                                        {
-                                            type: 'Tote'
-                                        }
-                                    ]
-                                }
-                            ],
-                        }
-                    ]
-                },
-                price: 50.00,
-                countInStock: 3,
-                rating: 4.5,
-                numReviews: 7
-            },
-            {
-                id: '3',
-                name: 'Chestnut Leather Crossbody Bag',
-                images: [
-                    {
-                        image1: '/images/bag 3/1.jpg'
-                    },
-                    {
-                        image2: '/images/bag 3/2.jpg'
-                    },
-                    {
-                        image3: '/images/bag 3/3.jpg'
-                    },
-                    {
-                        image4: '/images/bag 3/4.jpg'
-                    }
-                ],
-                description: 'Chestnut leather crossbody bag, accompinied with gold hardware. Perfect to dress up a neutral outfit, or dressed down!',
-                brand: 'ALMV',
-                category: {
-                    categories: [
-                        {
-                            accessories: [
-                                {
-                                    bags: [
-                                        {
-                                            type: 'Crossbody'
-                                        }
-                                    ]
-                                }
-                            ],
-                        }
-                    ]
-                },
-                price: 45.00,
-                countInStock: 6,
-                rating: 4.3,
-                numReviews: 4
-            },
-            {
-                id: '4',
-                name: 'Camel Suede Tote Bag',
-                images: [
-                    {
-                        image1: '/images/bag 4/1.jpg'
-                    },
-                    {
-                        image2: '/images/bag 4/2.jpg'
-                    },
-                    {
-                        image3: '/images/bag 4/3.jpg'
-                    },
-                    {
-                        image4: '/images/bag 4/4.jpg'
-                    }
-                ],
-                description: 'Camel suede tote bag. Perfect to give your outfit bohemian chic this fall & winter!',
-                brand: 'ALMV',
-                category: {
-                    categories: [
-                        {
-                            accessories: [
-                                {
-                                    bags: [
-                                        {
-                                            type: 'Tote'
-                                        }
-                                    ]
-                                }
-                            ],
-                        }
-                    ]
-                },
-                price: 45.00,
-                countInStock: 5,
-                rating: 4.4,
-                numReviews: 3
-            },
-        ],
         shoes: [
             {
                 id: '1',
@@ -181,6 +185,7 @@ const products = [
                 description: 'Camel suede sneakers. Perfect to give your outfit modern and clean style!',
                 brand: 'ALMV',
                 category: {
+                    name: 'shoes',
                     categories: [
                         {
                             accessories: [
@@ -220,6 +225,7 @@ const products = [
                 description: 'Tall beige leather stilleto heel. Perfect to give your outfit a modern, sexy-chic style!',
                 brand: 'ALMV',
                 category: {
+                    name: 'shoes',
                     categories: [
                         {
                             accessories: [
@@ -262,6 +268,7 @@ const products = [
                 description: 'Black leather block heel. Perfect to give your outfit a modern, sexy-chic style!',
                 brand: 'ALMV',
                 category: {
+                    name: 'shoes',
                     categories: [
                         {
                             accessories: [
@@ -301,6 +308,7 @@ const products = [
                 description: 'Black leather sandal stiletto. Perfect to give your outfit a modern, sexy-chic style!',
                 brand: 'ALMV',
                 category: {
+                    name: 'shoes',
                     categories: [
                         {
                             accessories: [
@@ -322,6 +330,7 @@ const products = [
             },
 
         ],
+
         dress: [
             {
                 id: '1',
@@ -343,6 +352,7 @@ const products = [
                 description: 'Beige turtleneck sweater dress. Perfect for a cozy fall outfit, dressed up or down!',
                 brand: 'ALMV',
                 category: {
+                    name: 'dress',
                     categories: [
                         {
                             clothing: [
@@ -384,6 +394,7 @@ const products = [
                 description: 'Black blazer mini dress. Perfect to give you an office chic style!',
                 brand: 'ALMV',
                 category: {
+                    name: 'dress',
                     categories: [
                         {
                             clothing: [
@@ -425,6 +436,7 @@ const products = [
                 description: 'Camel spotted maxi dress. Perfect for a cozy fall outfit, dressed up or down!',
                 brand: 'ALMV',
                 category: {
+                    name: 'dress',
                     categories: [
                         {
                             clothing: [
@@ -466,6 +478,7 @@ const products = [
                 description: 'Black spotted maxi dress. Perfect for a cozy fall outfit, dressed up or down!',
                 brand: 'ALMV',
                 category: {
+                    name: 'dress',
                     categories: [
                         {
                             clothing: [
@@ -509,6 +522,7 @@ const products = [
                 description: 'Beige and black checkered mini skirt. Perfect for a chic and classy fall outfit, dressed up or down!',
                 brand: 'ALMV',
                 category: {
+                    name: 'skirt',
                     categories: [
                         {
                             clothing: [
@@ -550,6 +564,7 @@ const products = [
                 description: 'Houndstouth mini a-line skirt. Perfect for a chic and classy fall outfit, dressed up or down!',
                 brand: 'ALMV',
                 category: {
+                    name: 'skirt',
                     categories: [
                         {
                             clothing: [
@@ -591,6 +606,7 @@ const products = [
                 description: 'Black and white checkered mini skirt. Perfect for a chic and classy fall outfit, dressed up or down!',
                 brand: 'ALMV',
                 category: {
+                    name: 'skirt',
                     categories: [
                         {
                             clothing: [
@@ -632,6 +648,7 @@ const products = [
                 description: 'Olive silk pleated maxi skirt. Perfect for a chic and classy fall outfit, dressed up or down!',
                 brand: 'ALMV',
                 category: {
+                    name: 'skirt',
                     categories: [
                         {
                             clothing: [
@@ -676,6 +693,7 @@ const products = [
                 description: 'Nude and black patterend long sleeve blouse. Perfect for a chic and classy fall outfit, dressed up or down!',
                 brand: 'ALMV',
                 category: {
+                    name: 'top',
                     categories: [
                         {
                             clothing: [
@@ -717,6 +735,7 @@ const products = [
                 description: 'Loose fit white button down blouse. Perfect for a chic and classy fall outfit, dressed up or down!',
                 brand: 'ALMV',
                 category: {
+                    name: 'top',
                     categories: [
                         {
                             clothing: [
@@ -758,6 +777,7 @@ const products = [
                 description: 'Ecru longsleeve turtleneck. Perfect for a chic and classy fall outfit, dressed up or down!',
                 brand: 'ALMV',
                 category: {
+                    name: 'top',
                     categories: [
                         {
                             clothing: [
@@ -799,6 +819,7 @@ const products = [
                 description: 'Ecru sweater vest. Perfect for a chic and classy fall outfit, dressed up or down!',
                 brand: 'ALMV',
                 category: {
+                    name: 'top',
                     categories: [
                         {
                             clothing: [
@@ -842,6 +863,7 @@ const products = [
                 description: 'Ecru straight leg jeans. Perfect for a chic and classy fall outfit, dressed up or down!',
                 brand: 'ALMV',
                 category: {
+                    name: 'jeans',
                     categories: [
                         {
                             clothing: [
@@ -882,6 +904,7 @@ const products = [
                 description: 'Medium wash straight leg jeans. Perfect for a chic and classy fall outfit, dressed up or down!',
                 brand: 'ALMV',
                 category: {
+                    name: 'jeans',
                     categories: [
                         {
                             clothing: [
@@ -922,6 +945,7 @@ const products = [
                 description: 'Black straight leg jeans. Perfect for a chic and classy fall outfit, dressed up or down!',
                 brand: 'ALMV',
                 category: {
+                    name: 'jeans',
                     categories: [
                         {
                             clothing: [
@@ -962,6 +986,7 @@ const products = [
                 description: 'Light wash flare jeans. Perfect for a chic and classy fall outfit, dressed up or down!',
                 brand: 'ALMV',
                 category: {
+                    name: 'jeans',
                     categories: [
                         {
                             clothing: [
@@ -1004,6 +1029,7 @@ const products = [
                 description: 'Black leather utility jacket. Perfect for a chic and edgy fall outfit, dressed up or down!',
                 brand: 'ALMV',
                 category: {
+                    name: 'jacket',
                     categories: [
                         {
                             clothing: [
@@ -1045,6 +1071,7 @@ const products = [
                 description: 'Camel utility jacket. Perfect for a chic and cozy fall outfit, dressed up or down!',
                 brand: 'ALMV',
                 category: {
+                    name: 'jacket',
                     categories: [
                         {
                             clothing: [
@@ -1086,6 +1113,7 @@ const products = [
                 description: 'Tweed balck and white balzer dress. Perfect for a chic and classy fall outfit, dressed up or down!',
                 brand: 'ALMV',
                 category: {
+                    name: 'jacket',
                     categories: [
                         {
                             clothing: [
@@ -1127,6 +1155,7 @@ const products = [
                 description: 'Camel blazer. Perfect for a chic and buisness fall outfit, dressed up or down!',
                 brand: 'ALMV',
                 category: {
+                    name: 'jacket',
                     categories: [
                         {
                             clothing: [

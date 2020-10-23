@@ -1,6 +1,6 @@
 import React, { Fragment } from 'react';
 import Panel from '../components/Panel';
-import Arrow from '../images/arrow-down.png'
+import Arrow from '../images/arrow-down.png';
 // import Header from '../components/Header';
 // import Footer from '../components/Footer';
 
