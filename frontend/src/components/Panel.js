@@ -3,6 +3,8 @@ import { Link } from 'react-router-dom';
 import products from '../products';
 import arrow from '../images/diagnol-arrow.png';
 import Slider from "react-slick";
+import 'ember-burger-menu';
+
 
 
 // import Product from './Product';

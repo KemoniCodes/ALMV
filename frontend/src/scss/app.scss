@@ -18,7 +18,7 @@ body {
  background-size: 1620px 2488px;
  background-repeat: no-repeat;
  background-position-x: 80%;
- background-position-y: -200%;
+ background-position-y: -175%;
 }
 
 //Font/text templates
@@ -90,6 +90,8 @@ h1.header-text {
     text-align: center;
     font-size: 11.2rem;
     color: #ffffff;
+    margin-top: 20rem;        
+    height: auto;
 }
 
 div.landing {
@@ -97,7 +99,7 @@ div.landing {
 
     div.image {
         text-align: center;
-        min-height: 45vh;
+        min-height: 20vh;
         a {
             scroll-behavior: smooth;
         }
