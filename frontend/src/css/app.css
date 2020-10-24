@@ -68,6 +68,8 @@ div.landing {
   div.landing div.image {
     text-align: center;
     min-height: 45vh; }
+    div.landing div.image a {
+      scroll-behavior: smooth; }
     div.landing div.image img {
       height: .8rem;
       position: absolute;
@@ -84,8 +86,14 @@ div.panel {
     width: 100%;
     margin: auto;
     padding: 0%;
-    display: inline-flex;
     justify-content: space-evenly; }
+    div.panel ul.panel-images div.slick-slider.slick-initialized button.slick-arrow.slick-next {
+      display: none !important; }
+    div.panel ul.panel-images div.slick-slider.slick-initialized button.slick-arrow.slick-prev {
+      display: none !important; }
+    div.panel ul.panel-images div.slick-list {
+      width: 100vw;
+      overflow: hidden; }
     div.panel ul.panel-images a {
       text-decoration: none;
       outline: none; }
@@ -94,10 +102,23 @@ div.panel {
       padding-bottom: 2rem;
       width: 100%;
       overflow: hidden; }
-  div.panel h2.header-text {
-    text-transform: uppercase;
-    letter-spacing: .35rem;
-    font-size: 3.5rem; }
+  div.panel div.slick-slider.slick-initialized button.slick-arrow.slick-next {
+    display: none !important; }
+  div.panel div.slick-slider.slick-initialized button.slick-arrow.slick-prev {
+    display: none !important; }
+  div.panel div.new {
+    display: inline-flex;
+    width: 100vw;
+    margin-bottom: 4rem; }
+    div.panel div.new h2.header-text {
+      text-transform: uppercase;
+      letter-spacing: .35rem;
+      font-size: 3.5rem;
+      position: relative;
+      white-space: nowrap;
+      padding-right: 5rem;
+      width: 100%;
+      justify-content: space-evenly; }
   div.panel div.collection {
     display: flex;
     margin-left: 108px;

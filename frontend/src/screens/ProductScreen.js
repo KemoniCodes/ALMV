@@ -1,9 +1,12 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
+import products from '../products';
 
-const ProductScreen = () => {
+const ProductScreen = ({ match }) => {
+
     return (
         <div className='product'>
-            productz baby
+            <h3 id='panel'>{}</h3>
         </div>
     )
 }
