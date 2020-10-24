@@ -75,7 +75,7 @@ div.landing {
     div.landing div.image img {
       height: .8rem;
       position: absolute;
-      bottom: 4%; }
+      bottom: 10%; }
 
 div.panel {
   background-color: #DBCFB0;
