@@ -13,7 +13,7 @@ const App = () => {
     <Router>
       <Header />
       <Route exact path='/' component={Landing} />
-      <Route path='/product/:name/:id' component={ProductScreen} />
+      <Route exact path='/product/:name/:id' component={ProductScreen} />
       <Footer />
     </Router>
   );
